@@ -25,4 +25,22 @@ The transparency property (`image.transparency`) can be either `Transparency.OPA
 
 For example, a 24-bit color image (that is, three 8-bit colors) has 3 components, 3 colors, and the `OPAQUE` transparency (a value of `1`). A 32-bit color image (three 8-bit colors and an alpha channel) has 4 components, 3 colors, and the `TRANSLUCENT` transparency (a value of `3`).
 
-**... In progress ...**
+### Objectives
+- Print the following message: `Input the image filename:`
+
+- Users must input a filename (and a path if needed) of an image file. If the file exists, then print the following information:
+```
+Image file: [Image filename]
+Width: [Image width]
+Height: [Image height]
+Number of components: [# of components]
+Number of color components: [# of color components]
+Bits per pixel: [Pixels for each pixel]
+Transparency: [Transparency field]
+```
+
+- If the user inputs a path together with the filename, then print the path with the filename.
+
+- If the file doesn't exist, print the following message: `The file [Image filename] doesn't exist.`
+
+If you need some image files to experiment with your code for stage 1, then you can [download this zip file](https://stepik.org/media/attachments/lesson/623865/stage1.zip).
